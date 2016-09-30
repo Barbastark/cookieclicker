@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+#app{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.upgrade-container {
+	height: 100%;
+	width: 20%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.cookie-container {
+	height: 100%;
+	width: 80%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.cookie {
+	width: 100px;
+	height: 100px;
+	border-radius: 90%;
+	background-color: brown;
+	border: 1px solid brown;
+	color: white;
+	outline-color: rgba(255,255,255,0.0);
+	box-shadow: 0px 0px 7px black;
+	margin-top: 20px;
+}
+.upgrade {
+	width: 200px;
+	height: 60px;
+	background: green;
+	color: white;
+	border: 1px solid green;
+}
+
+.upgrade span {
+	float: left;
+	display: block;
+}
+.upgrade:disabled {
+	background-color: red;
+	border:1px solid red;
+}
+.upgrade-stats,
+.upgrade-title {
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+.upgrade-stats {
+	padding: 5px;
+	width:40%;
+	
+}
+.upgrade-title {
+	width: 60%;	
+}
+
+.upgrade-title h2 {
+	text-align: right;
+	margin: 3px 5px 0 0;
+}
